@@ -1,0 +1,94 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "img": "/img/product-1.png",
+      "TProducto": "frutas",
+      "nombre": "Mandarina",
+      "tamaño": "2.5 kg",
+      "precio": "2.5",
+      "puntuacion": "4",
+      "descuento": "1.850"
+    },
+    {
+      "id": 2,
+      "img": "./img/product-2.png",
+      "TProducto": "verduras",
+      "nombre": "Cebolla Roja",
+      "tamaño": "1.5 kg",
+      "precio": "1.8",
+      "puntuacion": "3",
+      "descuento": "1.530"
+    },
+    {
+      "id": 3,
+      "img": "/img/product-3.png",
+      "TProducto": "carne",
+      "nombre": "Tabla de Res",
+      "tamaño": "1 lb",
+      "precio": "18",
+      "puntuacion": "3",
+      "descuento": "13.500"
+    },
+    {
+      "id": 4,
+      "img": "/img/product-4.png",
+      "TProducto": "verduras",
+      "nombre": "Repollo",
+      "tamaño": "1 kg",
+      "precio": "5.7",
+      "puntuacion": "4",
+      "descuento": "3.220"
+    },
+    {
+      "id": 5,
+      "img": "/img/product-5.png",
+      "TProducto": "verduras",
+      "nombre": "Papa Capira",
+      "tamaño": "2.5 kg",
+      "precio": "3.2",
+      "puntuacion": "4",
+      "descuento": "2.900"
+    },
+    {
+      "id": 6,
+      "img": "/img/product-6.png",
+      "TProducto": "verduras",
+      "nombre": "Aguacate",
+      "tamaño": "1 lb",
+      "precio": "5.6",
+      "puntuacion": "4.5",
+      "descuento": "4.800"
+    },
+    {
+      "id": 7,
+      "img": "/img/product-7.png",
+      "TProducto": "legumbres",
+      "nombre": "Zanahoria",
+      "tamaño": "2 kg",
+      "precio": "3.6",
+      "puntuacion": "3.5",
+      "descuento": "3.200"
+    },
+    {
+      "id": 8,
+      "img": "/img/product-8.png",
+      "TProducto": "frutas",
+      "nombre": "Limon Mandarin",
+      "tamaño": "1.5 kg",
+      "precio": "2.6",
+      "puntuacion": "3.5",
+      "descuento": "2.300"
+    },
+    {
+      "id": 9,
+      "img": "/img/product-8.png",
+      "TProducto": "",
+      "nombre": "",
+      "tamaño": "",
+      "precio": "2.50",
+      "puntuacion": "",
+      "descuento": ""
+    }
+  ]
+}

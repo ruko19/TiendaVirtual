@@ -1,0 +1,11 @@
+@media (max-width:992px) {
+    .hero__main__bottom {
+        display: none;
+    }
+}
+
+@media(max-width:400px) {
+    .search__container {
+        display: none;
+    }
+}

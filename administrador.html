@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adiministrador</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/medias.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/administrador.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2486c628c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header__container ">
+
+        <div class="header__top ">
+            <div class="header__top__info  container d-flex justify-content-between">
+
+                <div class="header__ubication d-flex">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <span>1418 Riverwood Drive, CA 96052, US</span>
+
+                </div>
+
+                <div class="header__top__lenguage d-flex ">
+                    <div class="lenguage__flag d-flex">
+                        <img height="25px" src="./img/eeuu_icon.png" alt="">
+                        <span>English</span>
+
+                        <img height="15px" src="./img/arrow-down.png" alt="">
+
+
+
+                    </div>
+                    <div class="usd">
+                        <span>USD</span>
+                        <img height="15px" src="./img/arrow-down.png" alt="">
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <nav class=" navbar nav__container container  ">
+
+            <div class="navlogo ">
+                <a href="./index.html">
+
+                    <span class="sLogo1">Fast<spans class="sLogo2">Kart</spans>.</span>
+                </a>
+            </div>
+
+            <div class="mid__box d-flex">
+                <form id="formulario" class="search__container d-flex ">
+                    <input id="inputSearch" class=" form-control " type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="nav__icons">
+                <ul>
+                    <li class="nav_-icon"><a href="#"><img width="20px" src="/img/phone-call-svgrepo-com.svg"
+                                alt=""></a></li>
+                    <li class="nav_-icon"><a href="./favoritos.html"><img src="./img/favourite-svgrepo-com.svg"
+                                alt=""></a></li>
+
+                    <div class="cart">
+
+                        <li class="nav_-icon nav__icon--cart"><a href="#">
+                                <img src="/img/car_shop.svg" alt="">
+                            </a></li>
+
+                        <div id="cart__amount" class="cart__amount">0</div>
+                    </div>
+                    <li class="nav_-icon"><a href="./administrador.html"><img
+                                src="/img/avatar-man-profile-svgrepo-com.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+
+
+
+
+    </header>
+
+    <section class="form_admin">
+        <form>
+            <div class="mb-3">
+                <label for="urlData" class="form-label">URl</label>
+                <input type="text" class="form-control" id="urlData" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+                <label for="nombreData" class="form-label">NOMBRE</label>
+                <input type="text" class="form-control" id="nombreData" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+                <label for="precioData" class="form-label">Precio</label>
+                <input type="text" class="form-control" id="precioData" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="categoriaData" class="form-label">Categoria</label>
+                <input type="text" class="form-control" id="categoriaData" aria-describedby="emailHelp">
+            </div>
+
+
+            <div class="btns__container_fomr">
+                <button id="btnModificar" type="button" class="btn btn-primary">Modificar</button>
+                <button id="btnCrear" type="button" class="btn btn-primary">Crear</button>
+            </div>
+
+        </form>
+    </section>
+
+    <section class="products__container container">
+        <h2>Productos</h2>
+        <hr>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+    <script src="./js_main/main_02.js"></script>
+
+</body>
+
+</html>
